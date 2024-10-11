@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <link rel="stylesheet" href="notifications.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="notifications.html">Notifications</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Remainder Tasks</h2>
+        
+        <label for="">Title</label>
+        <input type="text" id="title" />
+        <label for="">Task</label>
+        <input type="text" id="task" />
+        <label for="">Date</label>
+        <input type="date" id="date" />
+        <label for="">Deadline</label>
+        <input type="time" id="deadline" />
+
+        <button id="remainder" onclick="scheduleRemainder()">Schedule Remainder</button>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Task</th>
+                    <th>Date & Time</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="remainderTableBody"></tbody>
+        </table>
+    </div>
+    <script src="notifications.js"></script>
+</body>
+</html>
