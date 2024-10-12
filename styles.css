@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(263, 76%, 78%);;
+    font-family: Arial, sans-serif;
+    background-image: url('Images/stationary_materilas.png'); 
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+
+#display {
+    font-size: 2em;
+}
+.navbar{
+    background-color: hsl(255, 74%, 46%);
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-bottom: 200px;
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.navbar li{
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 20%);
+
+}

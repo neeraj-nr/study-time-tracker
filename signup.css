@@ -1,0 +1,43 @@
+body{
+    background-color: brown;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+form{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(24, 46, 78);
+    padding: 1px 10px 10px 10px;
+    border-style: solid ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    border-width: 3px;
+    
+}
+input{
+    font-size: 2em;
+    width: 70%;
+    margin-top: 5px;
+    background-color: aqua;
+}
+#username{
+    background-color: blanchedalmond;
+    margin: 30px;
+}
+#password{
+    background-color: blanchedalmond;
+    margin: 30px;
+}
+#signupBtn{
+    height: 15%;
+    width: 20%;
+    background-color: rgba(255, 187, 0, 0.778);
+    margin: 30px;
+}
+#signupBtn:hover{
+    background-color: rgba(255, 187, 0, 0.98);
+}
